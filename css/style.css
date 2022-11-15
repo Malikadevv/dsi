@@ -32,6 +32,11 @@
     text-align: center;
     row-gap: 51px;
   }
+  #content .content {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 30px;
+  }
 }
 @media (max-width: 576px) {
   #header .header {
@@ -67,6 +72,11 @@
     text-align: center;
     row-gap: 51px;
   }
+  #content .content {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 30px;
+  }
 }
 @media (max-width: 768px) {
   #header .header {
@@ -101,6 +111,11 @@
     flex-direction: column;
     text-align: center;
     row-gap: 51px;
+  }
+  #content .content {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 30px;
   }
 }
 * {
