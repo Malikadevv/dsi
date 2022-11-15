@@ -213,3 +213,18 @@
     }
   }
 }
+
+#footer{
+  background: #EE4248;
+  padding: 20px 0;
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+      font-weight: 400;
+      font-size: 18px;
+      color: #FFFFFF;
+    }
+  }
+}
