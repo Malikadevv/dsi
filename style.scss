@@ -55,3 +55,50 @@
     }
   }
 }
+#hero {
+  .hero{
+    @include alignment;
+    margin-top: 195px;
+    margin-bottom: 100px;
+    &--desc {
+      width: 48%;
+
+      &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133.69%;
+        color: #1F2E35;
+
+        span {
+          color: #EE4248;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #30444E;
+        margin: 24px 0;
+      }
+      &__btn {
+        font-weight: 400;
+        font-size: $fontSize-20;
+        color: $lightColor;
+        padding: 12px 32px;
+        background-color: #EE4248;
+        transition: all .4s ease-in;
+
+        &:hover {
+          transform: scale(.97) translateY(3px);
+        }
+      }
+    }
+    &--bg {
+      width: 46%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
