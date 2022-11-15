@@ -26,6 +26,30 @@
     }
   }
 
+  #dsi {
+    .dsi {
+      flex-direction: column;
+
+      .dsi--bg {
+        width: 80%;
+      }
+      .dsi--desc {
+        width: 80%;
+      }
+    }
+  }
+
+  #product {
+    .product {
+      .product--lol {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 51px;
+
+      }
+    }
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -52,6 +76,30 @@
       }
       .hero--bg {
         width: 80%;
+      }
+    }
+  }
+
+  #dsi {
+    .dsi {
+      flex-direction: column;
+
+      .dsi--bg {
+        width: 80%;
+      }
+      .dsi--desc {
+        width: 80%;
+      }
+    }
+  }
+
+  #product {
+    .product {
+      .product--lol {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 51px;
+
       }
     }
   }
@@ -86,5 +134,29 @@
       }
     }
   }
+  #dsi {
+    .dsi {
+      flex-direction: column;
+
+      .dsi--bg {
+        width: 80%;
+      }
+      .dsi--desc {
+        width: 80%;
+      }
+    }
+  }
+
+  #product {
+    .product {
+      .product--lol {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 51px;
+
+      }
+    }
+  }
   
 }
+
