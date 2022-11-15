@@ -256,6 +256,7 @@ body {
   margin-top: 40px;
 }
 
+#product .product--our {
   padding: 40px 0;
 }
 #product .product--our h1 {
@@ -298,3 +299,36 @@ body {
   background: rgb(129, 139, 251);
 }
 
+#content .content {
+  display: flex;
+  padding: 50px 0;
+}
+#content .content--text h1 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #263238;
+}
+#content .content--text p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+  margin: 10px 0;
+}
+#content .content--phone {
+  margin: 0 30px;
+}
+#content .content--phone h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #263238;
+  margin-bottom: 33px;
+}
+#content .content--phone a {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+
+/*# sourceMappingURL=style.css.map */
