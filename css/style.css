@@ -179,4 +179,39 @@ body {
   width: 100%;
 }
 
+#dsi {
+  background-color: #F6F6F6;
+  padding: 60px 0;
+}
+#dsi .dsi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#dsi .dsi--bg {
+  width: 47%;
+}
+#dsi .dsi--bg img {
+  width: 100%;
+}
+#dsi .dsi--desc {
+  width: 46%;
+}
+#dsi .dsi--desc__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1F2E35;
+}
+#dsi .dsi--desc__title span {
+  color: #EE4248;
+}
+#dsi .dsi--desc p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+  margin-top: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
