@@ -102,3 +102,78 @@
     }
   }
 }
+
+#dsi {
+  background-color: #F6F6F6;
+  padding: 60px 0;
+
+  .dsi {
+    @include  alignment;
+
+    &--bg {
+      width: 47%;
+
+      img {
+        width: 100%;
+      }
+    }
+    &--desc {
+      width: 46%;
+
+      &__title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        color: #1F2E35;
+
+        span {
+          color: #EE4248;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: $fontSize-18;
+        line-height: 150%;
+        color: #30444E;
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+#product{
+  .product{
+
+    &--our{
+      padding: 40px 0;
+      h1{
+        font-weight: 500;
+        font-size: 32px;
+        text-align: center;
+        color: #000;
+      }}
+    &--lol{
+
+      @include alignment;
+      justify-content: space-around;
+      &__our2{
+        h2{
+          font-weight: 500;
+          font-size: 28px;
+          color: #EE4248;
+        }
+        p{
+          font-weight: 400;
+          font-size: 18px;
+          color: #30444E;
+          padding: 20px 0;
+        }
+
+        button{
+          @include btn;
+        }
+      }
+    }
+
+  }
+}
